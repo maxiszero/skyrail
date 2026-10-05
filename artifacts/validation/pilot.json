@@ -1,0 +1,4669 @@
+[
+  {
+    "run": 1,
+    "seed": 945225,
+    "sources": {
+      "game": "f9a7e6a02cdf402f4365449469f0714f6e7037123e29ab8b18d6bf8c76eaefe7",
+      "world": "ff7e92bde6cf4cff109548e90a26daba407a44ba03d3156f5633f131ed4d4780",
+      "physics": "7ee17d0c0851cacd3340fbed710727386509723cacbabc67433a04363ad65314",
+      "combat": "e059315f6a63de70965bce6449eafaa7dce82079bbb15302186491801aeeb2b8",
+      "assets": "11c67ecc6540db324898068fc32551d4aa75797f40578f3c16652a5120439555"
+    },
+    "sourceUnchanged": true,
+    "method": "Accelerated fixed-step simulation, normal player inputs and production action methods; no teleports, HP edits, cooldown overrides or direct target damage. Extraction requires an observed grounded landing on the extraction train before normal F interaction.",
+    "passed": true,
+    "final": {
+      "mode": "victory",
+      "sector": 4,
+      "biome": "storm",
+      "position": [
+        -25.219215539210136,
+        3,
+        -143.54092924728744
+      ],
+      "velocity": [
+        17.250039315915387,
+        0,
+        20.87017911930913
+      ],
+      "state": "grapple",
+      "grounded": true,
+      "support": "body-6",
+      "health": 100,
+      "ammo": [
+        24,
+        12,
+        6,
+        3,
+        6
+      ],
+      "weapon": "harpoon",
+      "rope": null,
+      "enemies": 2,
+      "objectives": 0,
+      "bossPhase": 3,
+      "extraction": true,
+      "score": 60916,
+      "elapsed": 91.89166666668586,
+      "fps": 60,
+      "drawCalls": 258,
+      "triangles": 262880,
+      "seed": 945225,
+      "kills": 53,
+      "pilot": {
+        "frames": 10851,
+        "shots": 64,
+        "jumps": 49,
+        "hooks": 25,
+        "interacts": 112,
+        "rescues": 0,
+        "minHealth": 82.72,
+        "slides": 341,
+        "stopped": null,
+        "sectors": [
+          {
+            "sector": 0,
+            "biome": "iron",
+            "health": 100,
+            "elapsed": 0
+          },
+          {
+            "sector": 1,
+            "biome": "cloud",
+            "health": 100,
+            "elapsed": 17.67499999999964
+          },
+          {
+            "sector": 2,
+            "biome": "sun",
+            "health": 100,
+            "elapsed": 38.21666666666514
+          },
+          {
+            "sector": 3,
+            "biome": "under",
+            "health": 100,
+            "elapsed": 57.983333333330684
+          },
+          {
+            "sector": 4,
+            "biome": "storm",
+            "health": 100,
+            "elapsed": 80.05833333334311
+          }
+        ],
+        "extractionLanded": true
+      },
+      "target": [],
+      "nearby": []
+    },
+    "errors": [],
+    "history": [
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          -3.03708489679637,
+          0.07605979555486411,
+          -12.798283041630851
+        ],
+        "velocity": [
+          0,
+          2,
+          -34.687580706219755
+        ],
+        "state": "mantle",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 26,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 1340,
+        "elapsed": 1.0083333333333322,
+        "fps": 60,
+        "drawCalls": 1380,
+        "triangles": 1077517,
+        "seed": 945225,
+        "kills": 1,
+        "pilot": {
+          "frames": 120,
+          "shots": 1,
+          "jumps": 1,
+          "hooks": 1,
+          "interacts": 0,
+          "rescues": 0,
+          "minHealth": 100,
+          "slides": 0,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.39459223450749065,
+              0.06673538969608676,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.665217875613942,
+              0.0753095553755007,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.8977105337609408,
+              0.0795666723148045,
+              -288
+            ]
+          }
+        ],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          1.0998710353745809,
+          -0.07365542679963893,
+          -110.27817836283167
+        ],
+        "velocity": [
+          0.054750092703850256,
+          0,
+          -25.536867250721276
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-4",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 24,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 4160,
+        "elapsed": 6.091666666666759,
+        "fps": 60,
+        "drawCalls": 1097,
+        "triangles": 841957,
+        "seed": 945225,
+        "kills": 3,
+        "pilot": {
+          "frames": 719,
+          "shots": 3,
+          "jumps": 4,
+          "hooks": 2,
+          "interacts": 1,
+          "rescues": 0,
+          "minHealth": 100,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.194920604085835,
+              -0.06687557991933775,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2479007699502935,
+              -0.054522435477338406,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "sniper",
+            "hp": 5,
+            "pos": [
+              5.388982143352539,
+              -0.05539514525447074,
+              -83.23934908874489
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 25,
+            "pos": [
+              -2.920144241258556,
+              2.8372136453917367,
+              -107.19393958308761
+            ]
+          },
+          {
+            "type": "engineer",
+            "hp": 85,
+            "pos": [
+              0.3374227924807317,
+              -0.051650628346644245,
+              -126.60900989471527
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 60,
+            "pos": [
+              21.320471210081557,
+              3.3162997692905924,
+              -90.74663747587391
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 65,
+            "pos": [
+              22.132840361354013,
+              3.3162997692905924,
+              -116.7881426961749
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 80,
+            "pos": [
+              1.232840105541051,
+              1.8062277802707634,
+              -86.1838714783225
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          1.1014830818126649,
+          2.6759496384988353,
+          -257.5279957144566
+        ],
+        "velocity": [
+          -0.11849012042533354,
+          0.3722192976559672,
+          -38.26934842755763
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 90,
+        "ammo": [
+          24,
+          12,
+          6,
+          0,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 21,
+        "objectives": 1,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 7396,
+        "elapsed": 11.166666666666673,
+        "fps": 60,
+        "drawCalls": 436,
+        "triangles": 290181,
+        "seed": 945225,
+        "kills": 6,
+        "pilot": {
+          "frames": 1318,
+          "shots": 6,
+          "jumps": 9,
+          "hooks": 3,
+          "interacts": 2,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.993182345464239,
+              -0.013420669618401632,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "shield",
+            "hp": 40,
+            "pos": [
+              -1.0197309833232178,
+              0.016117096352588515,
+              -242.43757738746348
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 65,
+            "pos": [
+              0.6392448468382103,
+              0.016117096352588515,
+              -243.75470178292528
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 5,
+            "pos": [
+              -0.7897103253268725,
+              0.4773048389793037,
+              -256.1553257319453
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 80,
+            "pos": [
+              1.1092521258108632,
+              2.1175256098490145,
+              -281.35502875036826
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 60,
+            "pos": [
+              21.165649523913817,
+              2.777172924458349,
+              -244.5143206376698
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          0.10564770620446212,
+          0.07476315748093779,
+          -332.3941142748506
+        ],
+        "velocity": [
+          -0.0013607437445344827,
+          0,
+          0.21193402280773552
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-13",
+        "health": 95,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 17,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 10294,
+        "elapsed": 16.241666666666386,
+        "fps": 60,
+        "drawCalls": 1098,
+        "triangles": 960252,
+        "seed": 945225,
+        "kills": 10,
+        "pilot": {
+          "frames": 1917,
+          "shots": 10,
+          "jumps": 11,
+          "hooks": 4,
+          "interacts": 14,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "hunter",
+            "hp": 278,
+            "pos": [
+              4.109719971872513,
+              0.09476315748093779,
+              -334.21081206338886
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          -0.14501150871177126,
+          0.056713460457988446,
+          -332.3526364376638
+        ],
+        "velocity": [
+          -0.0000010503464199991184,
+          0,
+          0.00016359005362047096
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-13",
+        "health": 98,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 16,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 13114,
+        "elapsed": 17.67499999999964,
+        "fps": 60,
+        "drawCalls": 1080,
+        "triangles": 953740,
+        "seed": 945225,
+        "kills": 11,
+        "pilot": {
+          "frames": 2087,
+          "shots": 11,
+          "jumps": 11,
+          "hooks": 4,
+          "interacts": 20,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "cloud",
+        "position": [
+          0.6531166990583168,
+          0.043948434914170546,
+          -56.65676967263693
+        ],
+        "velocity": [
+          0.07715044299728763,
+          0,
+          -9.53294326160235
+        ],
+        "state": "slide",
+        "grounded": true,
+        "support": "body-2",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 27,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 13630,
+        "elapsed": 20.724999999999465,
+        "fps": 60,
+        "drawCalls": 1391,
+        "triangles": 1080477,
+        "seed": 945225,
+        "kills": 13,
+        "pilot": {
+          "frames": 2447,
+          "shots": 14,
+          "jumps": 13,
+          "hooks": 5,
+          "interacts": 20,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 100,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.7130074272921516,
+              0.03986093139294752,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.9366213473915903,
+              0.02223087406532742,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.1065443382649016,
+              0.0033264529946637716,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 91.20000000000002,
+            "pos": [
+              -0.8761017899806471,
+              1.5020453191924792,
+              -86.25428218745259
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              3.3382789969752302,
+              0.059860931392947514,
+              -82.86112582863058
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "cloud",
+        "position": [
+          1.254962026747284,
+          0.047141148855322605,
+          -186.25688135567626
+        ],
+        "velocity": [
+          -0.016253012130076322,
+          0,
+          -19.70714658993752
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-7",
+        "health": 93,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 24,
+        "objectives": 1,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 16992,
+        "elapsed": 25.791666666665844,
+        "fps": 60,
+        "drawCalls": 839,
+        "triangles": 630647,
+        "seed": 945225,
+        "kills": 16,
+        "pilot": {
+          "frames": 3045,
+          "shots": 17,
+          "jumps": 17,
+          "hooks": 6,
+          "interacts": 22,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2183426961823054,
+              0.06115395038759859,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              0.28303723841824646,
+              0.06318053329477488,
+              -164.75886720552907
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 19.10000000000001,
+            "pos": [
+              2.977104424011495,
+              0.06318053329477488,
+              -161.97077905795686
+            ]
+          },
+          {
+            "type": "shield",
+            "hp": 114.60000000000002,
+            "pos": [
+              2.360519345673329,
+              0.0709321071863229,
+              -203.34616976943758
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 68.4,
+            "pos": [
+              22.408671657689872,
+              3.123685934711054,
+              -167.3489514118613
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              21.971413864821226,
+              3.123685934711054,
+              -196.57682786594543
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "cloud",
+        "position": [
+          0.703623061694812,
+          2.2591900006475574,
+          -326.6220382810757
+        ],
+        "velocity": [
+          -0.20827624480734017,
+          4.336388744764921,
+          -26.912358302830548
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 21,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 20462,
+        "elapsed": 30.866666666665555,
+        "fps": 60,
+        "drawCalls": 374,
+        "triangles": 241851,
+        "seed": 945225,
+        "kills": 19,
+        "pilot": {
+          "frames": 3644,
+          "shots": 20,
+          "jumps": 22,
+          "hooks": 6,
+          "interacts": 23,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 36.20000000000002,
+            "pos": [
+              0.2817800171892498,
+              4.44683919029781,
+              -300.4217225885756
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 19.10000000000001,
+            "pos": [
+              -1.0302051198446602,
+              0.10931621399977574,
+              -318.1201306579221
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              -0.7659539564233162,
+              -0.05547997016124108,
+              -337.24823904805464
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "cloud",
+        "position": [
+          -0.4011687944826707,
+          0.014948674011223793,
+          -385.6067221691961
+        ],
+        "velocity": [
+          -1.5310263939872973e-8,
+          0,
+          0.000001064384382675897
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          0,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 19,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 21918,
+        "elapsed": 35.9499999999986,
+        "fps": 60,
+        "drawCalls": 1176,
+        "triangles": 1043276,
+        "seed": 945225,
+        "kills": 21,
+        "pilot": {
+          "frames": 4244,
+          "shots": 23,
+          "jumps": 23,
+          "hooks": 6,
+          "interacts": 38,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "hunter",
+            "hp": 234.00000000000006,
+            "pos": [
+              -4.389537304617487,
+              0.03494867401122379,
+              -385.6730485008013
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 1,
+        "biome": "cloud",
+        "position": [
+          -0.7523395868905443,
+          -0.0798808978467509,
+          -385.6067219607263
+        ],
+        "velocity": [
+          -1.8322239236847637e-13,
+          0,
+          1.2737798235184403e-11
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 95,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 18,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 25362,
+        "elapsed": 38.21666666666514,
+        "fps": 60,
+        "drawCalls": 1159,
+        "triangles": 1036778,
+        "seed": 945225,
+        "kills": 22,
+        "pilot": {
+          "frames": 4512,
+          "shots": 24,
+          "jumps": 23,
+          "hooks": 8,
+          "interacts": 47,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "sun",
+        "position": [
+          0.38403150803332115,
+          1.9221325813741474,
+          -38.254184950443026
+        ],
+        "velocity": [
+          0.24859098534031204,
+          6.71927690255235,
+          -26.417192981530025
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 27,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 25622,
+        "elapsed": 40.24999999999836,
+        "fps": 60,
+        "drawCalls": 1443,
+        "triangles": 1126087,
+        "seed": 945225,
+        "kills": 24,
+        "pilot": {
+          "frames": 4752,
+          "shots": 26,
+          "jumps": 25,
+          "hooks": 8,
+          "interacts": 47,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.5601560450211309,
+              0.07778490563907427,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.8097249037764687,
+              0.07111154759777075,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.0128770514218481,
+              0.06036178762535044,
+              -288
+            ]
+          }
+        ],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "sun",
+        "position": [
+          1.2518395198145187,
+          2.344118217942712,
+          -159.5345459312426
+        ],
+        "velocity": [
+          0.12321132612235693,
+          -3.8544949556945896,
+          -39.821439816229955
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 22,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 27892,
+        "elapsed": 45.32499999999807,
+        "fps": 60,
+        "drawCalls": 964,
+        "triangles": 712591,
+        "seed": 945225,
+        "kills": 29,
+        "pilot": {
+          "frames": 5351,
+          "shots": 30,
+          "jumps": 29,
+          "hooks": 9,
+          "interacts": 48,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.2348926599102048,
+              -0.01404827054917863,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2455536670804506,
+              0.0050750984801784995,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              3.0477041997548744,
+              0.0012544307101174726,
+              -160.68428811742223
+            ]
+          },
+          {
+            "type": "shield",
+            "hp": 179.20000000000002,
+            "pos": [
+              -0.9120274215781261,
+              0.005951729450821371,
+              -179.9071110801805
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              20.1657743871299,
+              3.2328380463571333,
+              -142.06112382846248
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 76.8,
+            "pos": [
+              22.65119256850014,
+              3.2328380463571333,
+              -169.3599653563713
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "sun",
+        "position": [
+          0.8781313806692915,
+          2.270029156850791,
+          -299.66541744054217
+        ],
+        "velocity": [
+          -0.13759042079290593,
+          4.286297430169901,
+          -23.450479200684285
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 97,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 20,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 30594,
+        "elapsed": 50.39166666666445,
+        "fps": 60,
+        "drawCalls": 461,
+        "triangles": 296901,
+        "seed": 945225,
+        "kills": 31,
+        "pilot": {
+          "frames": 5949,
+          "shots": 33,
+          "jumps": 33,
+          "hooks": 10,
+          "interacts": 50,
+          "rescues": 0,
+          "minHealth": 90,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              -0.857888972181025,
+              -0.04879805536489322,
+              -316.1392305216047
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              1.4891744682261843,
+              -0.04879805536489322,
+              -321.6514496742228
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "sun",
+        "position": [
+          -0.22874235943776672,
+          0.06737366671556183,
+          -385.60675558964095
+        ],
+        "velocity": [
+          -0.0000024697118985568513,
+          0,
+          0.00017169676400461613
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 91,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 17,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 33402,
+        "elapsed": 55.47499999999749,
+        "fps": 60,
+        "drawCalls": 1136,
+        "triangles": 1029558,
+        "seed": 945225,
+        "kills": 34,
+        "pilot": {
+          "frames": 6549,
+          "shots": 37,
+          "jumps": 35,
+          "hooks": 11,
+          "interacts": 61,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "hunter",
+            "hp": 235,
+            "pos": [
+              -3.536124645321005,
+              0.08737366671556183,
+              -387.99330808203996
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 2,
+        "biome": "sun",
+        "position": [
+          -0.638949285491158,
+          -0.06754882372789944,
+          -385.6067219608439
+        ],
+        "velocity": [
+          -8.828149251663647e-12,
+          0,
+          6.137414892587834e-10
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 89,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 15,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 37106,
+        "elapsed": 57.983333333330684,
+        "fps": 60,
+        "drawCalls": 1136,
+        "triangles": 1029558,
+        "seed": 945225,
+        "kills": 36,
+        "pilot": {
+          "frames": 6846,
+          "shots": 39,
+          "jumps": 35,
+          "hooks": 13,
+          "interacts": 71,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "under",
+        "position": [
+          0.38403150803332115,
+          1.9221325813741474,
+          -38.254184950443026
+        ],
+        "velocity": [
+          0.24859098534031204,
+          6.71927690255235,
+          -26.417192981530025
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 28,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 37226,
+        "elapsed": 60.0166666666639,
+        "fps": 60,
+        "drawCalls": 1439,
+        "triangles": 1124901,
+        "seed": 945225,
+        "kills": 37,
+        "pilot": {
+          "frames": 7086,
+          "shots": 41,
+          "jumps": 37,
+          "hooks": 13,
+          "interacts": 71,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.5601560450211309,
+              0.07778490563907427,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.8097249037764687,
+              0.07111154759777075,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.0128770514218481,
+              0.06036178762535044,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "engineer",
+            "hp": 120.69999999999999,
+            "pos": [
+              -0.3114173502763242,
+              0.09876597061671628,
+              -49.92577432138724
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 113.6,
+            "pos": [
+              -15.135155514338651,
+              9.533848262643492,
+              -62.72588544306253
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "under",
+        "position": [
+          1.250812758763499,
+          2.376239009240167,
+          -159.20270059944067
+        ],
+        "velocity": [
+          0.12356681628831424,
+          -3.6378282890279228,
+          -39.72966966100628
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 23,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 39944,
+        "elapsed": 65.0833333333312,
+        "fps": 60,
+        "drawCalls": 962,
+        "triangles": 712309,
+        "seed": 945225,
+        "kills": 42,
+        "pilot": {
+          "frames": 7685,
+          "shots": 45,
+          "jumps": 41,
+          "hooks": 15,
+          "interacts": 72,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.2346657747025196,
+              -0.01457300034175866,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2456757135413141,
+              0.004542730584575396,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "shield",
+            "hp": 198.79999999999998,
+            "pos": [
+              0.09012250565248192,
+              0.0007363659892761637,
+              -164.67003750928387
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 85.19999999999999,
+            "pos": [
+              -0.26585295902939277,
+              0.00542699965824134,
+              -182.58653164430376
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 92.3,
+            "pos": [
+              22.08813904588702,
+              3.2336475322957807,
+              -141.80814187239068
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 85.19999999999999,
+            "pos": [
+              17.11260855497023,
+              3.2336475322957807,
+              -172.7562909322752
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "under",
+        "position": [
+          0.8788035259678866,
+          0.6631151620727147,
+          -295.07995685488044
+        ],
+        "velocity": [
+          -0.15937950852230162,
+          10.144487397461415,
+          -26.656266738087947
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 20,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 42516,
+        "elapsed": 70.1500000000019,
+        "fps": 60,
+        "drawCalls": 454,
+        "triangles": 306869,
+        "seed": 945225,
+        "kills": 45,
+        "pilot": {
+          "frames": 8283,
+          "shots": 48,
+          "jumps": 45,
+          "hooks": 15,
+          "interacts": 74,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 303,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "rusher",
+            "hp": 106.5,
+            "pos": [
+              0.7389660003044258,
+              -0.04852434987599974,
+              -315.1049665921898
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 92.3,
+            "pos": [
+              2.315351432040755,
+              -0.04852434987599974,
+              -317.03672920704076
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "under",
+        "position": [
+          -0.21306041392220884,
+          0.0676597464914462,
+          -384.3321345911254
+        ],
+        "velocity": [
+          0.00029449903644417075,
+          0,
+          0.07471820571885532
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 18,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 44752,
+        "elapsed": 75.23333333333927,
+        "fps": 60,
+        "drawCalls": 1116,
+        "triangles": 1019434,
+        "seed": 945225,
+        "kills": 47,
+        "pilot": {
+          "frames": 8883,
+          "shots": 52,
+          "jumps": 47,
+          "hooks": 16,
+          "interacts": 85,
+          "rescues": 0,
+          "minHealth": 88,
+          "slides": 341,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "sniper",
+            "hp": 30.19999999999999,
+            "pos": [
+              0.7028994126590222,
+              0.09009766408882039,
+              -360.97804975775466
+            ]
+          },
+          {
+            "type": "hunter",
+            "hp": 289,
+            "pos": [
+              1.99785303436148,
+              0.0876597464914462,
+              -395.0238603208367
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          -19.704782118105683,
+          0.031602732591313756,
+          -30.526212961490803
+        ],
+        "velocity": [
+          6.976033959872842,
+          0,
+          -16.631702742310814
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-0",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 5,
+        "objectives": 6,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 49288,
+        "elapsed": 80.30833333334331,
+        "fps": 60,
+        "drawCalls": 420,
+        "triangles": 329740,
+        "seed": 945225,
+        "kills": 50,
+        "pilot": {
+          "frames": 9483,
+          "shots": 56,
+          "jumps": 47,
+          "hooks": 19,
+          "interacts": 105,
+          "rescues": 0,
+          "minHealth": 82.72,
+          "slides": 341,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 80.05833333334311
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "PORT TURBINE",
+            "position": [
+              -7.917356869890599,
+              7.036117408675787,
+              -68
+            ],
+            "phase": 1
+          },
+          {
+            "name": "STARBOARD TURBINE",
+            "position": [
+              8.0826431301094,
+              7.036117408675787,
+              -68
+            ],
+            "phase": 1
+          },
+          {
+            "name": "SHIELD RELAY A",
+            "position": [
+              -7.917356869890599,
+              7.036117408675787,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "SHIELD RELAY B",
+            "position": [
+              8.0826431301094,
+              7.036117408675787,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "CORE INDUCTOR A",
+            "position": [
+              -7.917356869890599,
+              7.036117408675787,
+              -120
+            ],
+            "phase": 3
+          },
+          {
+            "name": "CORE INDUCTOR B",
+            "position": [
+              8.0826431301094,
+              7.036117408675787,
+              -120
+            ],
+            "phase": 3
+          }
+        ],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          4.729787743917264,
+          7.382958034947988,
+          -96.16955576412586
+        ],
+        "velocity": [
+          5.260854256400261,
+          0,
+          -6.747112267667657
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-1",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 3,
+        "objectives": 4,
+        "bossPhase": 2,
+        "extraction": false,
+        "score": 51076,
+        "elapsed": 85.37500000001401,
+        "fps": 60,
+        "drawCalls": 241,
+        "triangles": 183702,
+        "seed": 945225,
+        "kills": 52,
+        "pilot": {
+          "frames": 10081,
+          "shots": 60,
+          "jumps": 48,
+          "hooks": 22,
+          "interacts": 107,
+          "rescues": 0,
+          "minHealth": 82.72,
+          "slides": 341,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 80.05833333334311
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "SHIELD RELAY A",
+            "position": [
+              -6.494802264016437,
+              7.382958034947988,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "SHIELD RELAY B",
+            "position": [
+              9.505197735983563,
+              7.382958034947988,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "CORE INDUCTOR A",
+            "position": [
+              -6.494802264016437,
+              7.382958034947988,
+              -120
+            ],
+            "phase": 3
+          },
+          {
+            "name": "CORE INDUCTOR B",
+            "position": [
+              9.505197735983563,
+              7.382958034947988,
+              -120
+            ],
+            "phase": 3
+          }
+        ],
+        "nearby": [
+          {
+            "type": "engineer",
+            "hp": 120.69999999999999,
+            "pos": [
+              -16.970403375432113,
+              3.648909301738153,
+              -110.95255707187513
+            ]
+          },
+          {
+            "type": "engineer",
+            "hp": 120.69999999999999,
+            "pos": [
+              13.490024339943098,
+              5.5298558234778,
+              -110.98696864713114
+            ]
+          },
+          {
+            "type": "hunter",
+            "hp": 277,
+            "pos": [
+              -0.0629285746358621,
+              7.543791368281322,
+              -90.280480151451
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          -33.90343908112894,
+          3.354816400566579,
+          -142.64172875074217
+        ],
+        "velocity": [
+          -28.23045406627778,
+          -8.216666666666672,
+          -17.928892829050685
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 2,
+        "objectives": 0,
+        "bossPhase": 3,
+        "extraction": true,
+        "score": 53314,
+        "elapsed": 90.42500000001803,
+        "fps": 60,
+        "drawCalls": 260,
+        "triangles": 225730,
+        "seed": 945225,
+        "kills": 53,
+        "pilot": {
+          "frames": 10677,
+          "shots": 63,
+          "jumps": 49,
+          "hooks": 23,
+          "interacts": 111,
+          "rescues": 0,
+          "minHealth": 82.72,
+          "slides": 341,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 80.05833333334311
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": []
+      },
+      {
+        "mode": "victory",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          -25.219215539210136,
+          3,
+          -143.54092924728744
+        ],
+        "velocity": [
+          17.250039315915387,
+          0,
+          20.87017911930913
+        ],
+        "state": "grapple",
+        "grounded": true,
+        "support": "body-6",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 2,
+        "objectives": 0,
+        "bossPhase": 3,
+        "extraction": true,
+        "score": 60916,
+        "elapsed": 91.89166666668586,
+        "fps": 60,
+        "drawCalls": 258,
+        "triangles": 262880,
+        "seed": 945225,
+        "kills": 53,
+        "pilot": {
+          "frames": 10851,
+          "shots": 64,
+          "jumps": 49,
+          "hooks": 25,
+          "interacts": 112,
+          "rescues": 0,
+          "minHealth": 82.72,
+          "slides": 341,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "cloud",
+              "health": 100,
+              "elapsed": 17.67499999999964
+            },
+            {
+              "sector": 2,
+              "biome": "sun",
+              "health": 100,
+              "elapsed": 38.21666666666514
+            },
+            {
+              "sector": 3,
+              "biome": "under",
+              "health": 100,
+              "elapsed": 57.983333333330684
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 80.05833333334311
+            }
+          ],
+          "extractionLanded": true
+        },
+        "target": [],
+        "nearby": []
+      }
+    ]
+  },
+  {
+    "run": 2,
+    "seed": 488253,
+    "sources": {
+      "game": "f9a7e6a02cdf402f4365449469f0714f6e7037123e29ab8b18d6bf8c76eaefe7",
+      "world": "ff7e92bde6cf4cff109548e90a26daba407a44ba03d3156f5633f131ed4d4780",
+      "physics": "7ee17d0c0851cacd3340fbed710727386509723cacbabc67433a04363ad65314",
+      "combat": "e059315f6a63de70965bce6449eafaa7dce82079bbb15302186491801aeeb2b8",
+      "assets": "11c67ecc6540db324898068fc32551d4aa75797f40578f3c16652a5120439555"
+    },
+    "sourceUnchanged": true,
+    "method": "Accelerated fixed-step simulation, normal player inputs and production action methods; no teleports, HP edits, cooldown overrides or direct target damage. Extraction requires an observed grounded landing on the extraction train before normal F interaction.",
+    "passed": true,
+    "final": {
+      "mode": "victory",
+      "sector": 4,
+      "biome": "storm",
+      "position": [
+        -25.21428102759012,
+        3,
+        -143.53395975057379
+      ],
+      "velocity": [
+        17.244367132903154,
+        0,
+        20.87826382333649
+      ],
+      "state": "grapple",
+      "grounded": true,
+      "support": "body-6",
+      "health": 100,
+      "ammo": [
+        34,
+        17,
+        9,
+        5,
+        9
+      ],
+      "weapon": "harpoon",
+      "rope": null,
+      "enemies": 2,
+      "objectives": 0,
+      "bossPhase": 3,
+      "extraction": true,
+      "score": 54624,
+      "elapsed": 85.98333333334783,
+      "fps": 60,
+      "drawCalls": 276,
+      "triangles": 268061,
+      "seed": 488253,
+      "kills": 45,
+      "pilot": {
+        "frames": 10156,
+        "shots": 58,
+        "jumps": 49,
+        "hooks": 15,
+        "interacts": 91,
+        "rescues": 0,
+        "minHealth": 62,
+        "slides": 254,
+        "stopped": null,
+        "sectors": [
+          {
+            "sector": 0,
+            "biome": "iron",
+            "health": 100,
+            "elapsed": 0
+          },
+          {
+            "sector": 1,
+            "biome": "scrap",
+            "health": 100,
+            "elapsed": 19.5416666666662
+          },
+          {
+            "sector": 2,
+            "biome": "storm",
+            "health": 100,
+            "elapsed": 38.79166666666511
+          },
+          {
+            "sector": 3,
+            "biome": "storm",
+            "health": 100,
+            "elapsed": 54.85833333333086
+          },
+          {
+            "sector": 4,
+            "biome": "storm",
+            "health": 100,
+            "elapsed": 74.15833333333842
+          }
+        ],
+        "extractionLanded": true
+      },
+      "target": [],
+      "nearby": []
+    },
+    "errors": [],
+    "history": [
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          -3.03708489679637,
+          0.07605979555486411,
+          -12.798283041630851
+        ],
+        "velocity": [
+          0,
+          2,
+          -34.687580706219755
+        ],
+        "state": "mantle",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 26,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 1340,
+        "elapsed": 1.0083333333333322,
+        "fps": 60,
+        "drawCalls": 1380,
+        "triangles": 1077517,
+        "seed": 488253,
+        "kills": 1,
+        "pilot": {
+          "frames": 120,
+          "shots": 1,
+          "jumps": 1,
+          "hooks": 1,
+          "interacts": 0,
+          "rescues": 0,
+          "minHealth": 100,
+          "slides": 0,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.39459223450749065,
+              0.06673538969608676,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.665217875613942,
+              0.0753095553755007,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.8977105337609408,
+              0.0795666723148045,
+              -288
+            ]
+          }
+        ],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          1.0987486950019298,
+          -0.07386194206333876,
+          -110.06537706503673
+        ],
+        "velocity": [
+          0.057649475247644445,
+          0,
+          -25.968102111347836
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-4",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 23,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 4420,
+        "elapsed": 6.083333333333425,
+        "fps": 60,
+        "drawCalls": 1115,
+        "triangles": 848469,
+        "seed": 488253,
+        "kills": 4,
+        "pilot": {
+          "frames": 719,
+          "shots": 4,
+          "jumps": 4,
+          "hooks": 2,
+          "interacts": 1,
+          "rescues": 0,
+          "minHealth": 100,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.194491662852876,
+              -0.06716679222377858,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2478154386626772,
+              -0.05491150885378498,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 25,
+            "pos": [
+              0.040667729413937925,
+              2.647702392389521,
+              -107.20049381426787
+            ]
+          },
+          {
+            "type": "engineer",
+            "hp": 85,
+            "pos": [
+              -0.20937795455907682,
+              -0.051886257878455785,
+              -130.69982217707556
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 60,
+            "pos": [
+              22.37736147318038,
+              3.31684187348591,
+              -90.96947841975134
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 65,
+            "pos": [
+              19.72393946809313,
+              3.31684187348591,
+              -117.4887397247257
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 80,
+            "pos": [
+              -16.81026007335695,
+              7.586474177018789,
+              -131.1240690819453
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          1.1028515882240855,
+          2.672847811018369,
+          -257.20908524524714
+        ],
+        "velocity": [
+          -0.11778304144701265,
+          0.5888859643226338,
+          -38.176609208159874
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 20,
+        "objectives": 1,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 7656,
+        "elapsed": 11.15833333333334,
+        "fps": 60,
+        "drawCalls": 456,
+        "triangles": 298017,
+        "seed": 488253,
+        "kills": 7,
+        "pilot": {
+          "frames": 1318,
+          "shots": 7,
+          "jumps": 9,
+          "hooks": 3,
+          "interacts": 2,
+          "rescues": 0,
+          "minHealth": 100,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.994067175364409,
+              -0.01289460026696837,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 10,
+            "pos": [
+              -1.3364593817277803,
+              0.016649883450119835,
+              -242.58814461684304
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 5,
+            "pos": [
+              0.6660447152352686,
+              0.40686299938391973,
+              -255.64609599659227
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 80,
+            "pos": [
+              2.6414431789058277,
+              1.73051820144728,
+              -282.72229270339903
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 60,
+            "pos": [
+              22.842892107771878,
+              2.7779091357156056,
+              -246.5749711189311
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          0.11096547188044985,
+          0.07457170575757836,
+          -332.38039137416297
+        ],
+        "velocity": [
+          0.000004055964694020287,
+          0,
+          0.058072862243344195
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-13",
+        "health": 93,
+        "ammo": [
+          24,
+          12,
+          6,
+          0,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 18,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 9150,
+        "elapsed": 16.233333333333054,
+        "fps": 60,
+        "drawCalls": 1065,
+        "triangles": 949194,
+        "seed": 488253,
+        "kills": 9,
+        "pilot": {
+          "frames": 1917,
+          "shots": 9,
+          "jumps": 11,
+          "hooks": 3,
+          "interacts": 14,
+          "rescues": 0,
+          "minHealth": 93,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 10,
+            "pos": [
+              2.8280199728743085,
+              0.09270056688887943,
+              -319.06146915928946
+            ]
+          },
+          {
+            "type": "hunter",
+            "hp": 345,
+            "pos": [
+              0.12807541190820945,
+              0.09457170575757837,
+              -337.50711355044837
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 0,
+        "biome": "iron",
+        "position": [
+          -0.4570021106894918,
+          -0.05186525049815505,
+          -332.3690170924183
+        ],
+        "velocity": [
+          2.655459065868552e-13,
+          0,
+          3.802057467422629e-9
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-13",
+        "health": 84,
+        "ammo": [
+          24,
+          12,
+          6,
+          1,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 16,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 12854,
+        "elapsed": 19.5416666666662,
+        "fps": 60,
+        "drawCalls": 1080,
+        "triangles": 953270,
+        "seed": 488253,
+        "kills": 11,
+        "pilot": {
+          "frames": 2308,
+          "shots": 12,
+          "jumps": 11,
+          "hooks": 3,
+          "interacts": 27,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": []
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "scrap",
+        "position": [
+          0.1785618303958482,
+          1.8448294587072207,
+          -11.41108867165828
+        ],
+        "velocity": [
+          0.17115433441765696,
+          6.983761663857841,
+          -22.264276263833104
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          3,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 29,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 13070,
+        "elapsed": 20.558333333332808,
+        "fps": 60,
+        "drawCalls": 1468,
+        "triangles": 1157913,
+        "seed": 488253,
+        "kills": 11,
+        "pilot": {
+          "frames": 2428,
+          "shots": 13,
+          "jumps": 12,
+          "hooks": 4,
+          "interacts": 27,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 65,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.39597573116102047,
+              0.06702802374648133,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.6664520983914408,
+              0.07548781516652263,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.8987247320138348,
+              0.07962033927322748,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "shield",
+            "hp": 2.6000000000000227,
+            "pos": [
+              -0.060313527526831,
+              0.08131792868810309,
+              -31.962591009996906
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "scrap",
+        "position": [
+          1.1122937937364683,
+          2.5835469731924214,
+          -124.37628878260458
+        ],
+        "velocity": [
+          0.1416584163615106,
+          -0.8659662433579108,
+          -29.33937613402304
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 25,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 14944,
+        "elapsed": 25.63333333333252,
+        "fps": 60,
+        "drawCalls": 1137,
+        "triangles": 878505,
+        "seed": 488253,
+        "kills": 15,
+        "pilot": {
+          "frames": 3027,
+          "shots": 17,
+          "jumps": 16,
+          "hooks": 4,
+          "interacts": 28,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.194920604085835,
+              -0.06687557991933775,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2479007699502935,
+              -0.054522435477338406,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "engineer",
+            "hp": 41.900000000000006,
+            "pos": [
+              2.681030786922937,
+              -0.05365542679963893,
+              -100.26812578535969
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              20.094476572300188,
+              3.3162997692905924,
+              -117.24578754014279
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 74.10000000000001,
+            "pos": [
+              18.864639130348365,
+              3.3162997692905924,
+              -144.13872224445763
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 91.20000000000002,
+            "pos": [
+              -17.950851393657413,
+              7.1993840702419,
+              -133.12088334194559
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "scrap",
+        "position": [
+          1.0827984084152773,
+          -0.013420669618401632,
+          -279.1051404902273
+        ],
+        "velocity": [
+          -0.13684639596492087,
+          0,
+          -33.29226629019032
+        ],
+        "state": "run",
+        "grounded": true,
+        "support": "body-11",
+        "health": 93,
+        "ammo": [
+          24,
+          12,
+          6,
+          0,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 23,
+        "objectives": 1,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 18232,
+        "elapsed": 30.70833333333223,
+        "fps": 60,
+        "drawCalls": 492,
+        "triangles": 334693,
+        "seed": 488253,
+        "kills": 17,
+        "pilot": {
+          "frames": 3626,
+          "shots": 19,
+          "jumps": 20,
+          "hooks": 5,
+          "interacts": 29,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.993182345464239,
+              -0.013420669618401632,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 36.20000000000002,
+            "pos": [
+              -1.8820717422493016,
+              2.697088989923139,
+              -264.928527521448
+            ]
+          },
+          {
+            "type": "engineer",
+            "hp": 41.900000000000006,
+            "pos": [
+              1.5422500151863971,
+              0.19741266371493169,
+              -281.90816844875025
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 1,
+        "biome": "scrap",
+        "position": [
+          -0.051847880029490374,
+          0.07763356646296483,
+          -385.6121466704569
+        ],
+        "velocity": [
+          -0.0003983913592755411,
+          0,
+          0.027696553284203312
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 100,
+        "ammo": [
+          24,
+          12,
+          6,
+          0,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 20,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 19986,
+        "elapsed": 35.783333333331946,
+        "fps": 60,
+        "drawCalls": 1156,
+        "triangles": 1036430,
+        "seed": 488253,
+        "kills": 20,
+        "pilot": {
+          "frames": 4225,
+          "shots": 23,
+          "jumps": 23,
+          "hooks": 5,
+          "interacts": 37,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "rusher",
+            "hp": 85.50000000000001,
+            "pos": [
+              -2.4815168023375174,
+              0.0963357250607153,
+              -361.60014184997976
+            ]
+          },
+          {
+            "type": "hunter",
+            "hp": 344.00000000000006,
+            "pos": [
+              -2.7286627703041995,
+              0.09763356646296484,
+              -396.45449487702746
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 1,
+        "biome": "scrap",
+        "position": [
+          -0.5591709646644915,
+          -0.04464418170291829,
+          -385.6067219623154
+        ],
+        "velocity": [
+          -1.1689530769654405e-10,
+          0,
+          8.126675046813547e-9
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 93,
+        "ammo": [
+          24,
+          12,
+          6,
+          2,
+          6
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 19,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 23222,
+        "elapsed": 38.79166666666511,
+        "fps": 60,
+        "drawCalls": 1173,
+        "triangles": 1043262,
+        "seed": 488253,
+        "kills": 21,
+        "pilot": {
+          "frames": 4582,
+          "shots": 25,
+          "jumps": 23,
+          "hooks": 5,
+          "interacts": 49,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "rusher",
+            "hp": 85.50000000000001,
+            "pos": [
+              1.6722675623330359,
+              -0.020583167860642394,
+              -364.5762065619775
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "storm",
+        "position": [
+          1.4815496070082173,
+          1.866075086009053,
+          -38.16304244802403
+        ],
+        "velocity": [
+          0.37887102754875446,
+          6.935517203504656,
+          -25.96354481928069
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          4,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 27,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 23482,
+        "elapsed": 40.824999999998326,
+        "fps": 60,
+        "drawCalls": 1439,
+        "triangles": 1125825,
+        "seed": 488253,
+        "kills": 23,
+        "pilot": {
+          "frames": 4822,
+          "shots": 27,
+          "jumps": 25,
+          "hooks": 5,
+          "interacts": 49,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 128,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.5601560450211309,
+              0.07778490563907427,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.8097249037764687,
+              0.07111154759777075,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.0128770514218481,
+              0.06036178762535044,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 102.4,
+            "pos": [
+              -10.94983642147335,
+              9.904720748832489,
+              -52.016142507289025
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "storm",
+        "position": [
+          -0.526947224950479,
+          2.6029663740542994,
+          -159.11824178291116
+        ],
+        "velocity": [
+          -1.0708447844662703,
+          0.7024628025733792,
+          -39.59012684562304
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          3,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 23,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 25172,
+        "elapsed": 45.89999999999804,
+        "fps": 60,
+        "drawCalls": 982,
+        "triangles": 720446,
+        "seed": 488253,
+        "kills": 27,
+        "pilot": {
+          "frames": 5421,
+          "shots": 31,
+          "jumps": 29,
+          "hooks": 6,
+          "interacts": 50,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.2348926599102048,
+              -0.01404827054917863,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2455536670804506,
+              0.0050750984801784995,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 38.2,
+            "pos": [
+              2.593914603819678,
+              0.4251433195990063,
+              -160.25264898158525
+            ]
+          },
+          {
+            "type": "shield",
+            "hp": 179.20000000000002,
+            "pos": [
+              -0.3018035743715173,
+              0.005951729450821371,
+              -182.54931771884173
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              18.174635742121247,
+              3.2328380463571333,
+              -145.435132225151
+            ]
+          },
+          {
+            "type": "sniper",
+            "hp": 76.8,
+            "pos": [
+              21.86594988338177,
+              3.2328380463571333,
+              -170.92550868056063
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 2,
+        "biome": "storm",
+        "position": [
+          1.4451728761080083,
+          2.066506306547288,
+          -309.0693338913999
+        ],
+        "velocity": [
+          1.3751451102328318,
+          -5.257575827767111,
+          -27.878328270063715
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          0,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 21,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 28420,
+        "elapsed": 50.966666666664416,
+        "fps": 60,
+        "drawCalls": 428,
+        "triangles": 266239,
+        "seed": 488253,
+        "kills": 29,
+        "pilot": {
+          "frames": 6019,
+          "shots": 34,
+          "jumps": 33,
+          "hooks": 7,
+          "interacts": 52,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 102.4,
+            "pos": [
+              2.9416720237108303,
+              1.9757287123097766,
+              -294.5920230199559
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 28.200000000000003,
+            "pos": [
+              -1.7587303838365314,
+              -0.04622611752685045,
+              -282.9469288910416
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              2.543873772185008,
+              -0.04879805536489322,
+              -320.33876883958345
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 83.2,
+            "pos": [
+              -0.9670607634834338,
+              -0.04879805536489322,
+              -317.8977626695435
+            ]
+          },
+          {
+            "type": "rusher",
+            "hp": 96,
+            "pos": [
+              2.1999955707142336,
+              -0.05112239449660644,
+              -334.158422075941
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "upgrades",
+        "sector": 2,
+        "biome": "storm",
+        "position": [
+          -0.03143443178455303,
+          0.0741788681098192,
+          -385.9433741180125
+        ],
+        "velocity": [
+          0.0013268957234983635,
+          0,
+          0.010563262795312148
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 93,
+        "ammo": [
+          34,
+          17,
+          9,
+          3,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 20,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 32644,
+        "elapsed": 54.85833333333086,
+        "fps": 60,
+        "drawCalls": 1171,
+        "triangles": 1033982,
+        "seed": 488253,
+        "kills": 30,
+        "pilot": {
+          "frames": 6480,
+          "shots": 37,
+          "jumps": 35,
+          "hooks": 8,
+          "interacts": 60,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "shield",
+            "hp": 22.200000000000017,
+            "pos": [
+              -1.9868988387104527,
+              0.09224897071997289,
+              -368.1662189749008
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "storm",
+        "position": [
+          0.21927807533184593,
+          1.8448294587072207,
+          -11.411088568378265
+        ],
+        "velocity": [
+          0.6275662302489765,
+          6.983761663857841,
+          -22.26427360171494
+        ],
+        "state": "jump",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          5,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 29,
+        "objectives": 3,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 32644,
+        "elapsed": 55.87499999999747,
+        "fps": 60,
+        "drawCalls": 1470,
+        "triangles": 1158105,
+        "seed": 488253,
+        "kills": 30,
+        "pilot": {
+          "frames": 6600,
+          "shots": 38,
+          "jumps": 36,
+          "hooks": 8,
+          "interacts": 60,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 191,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 1",
+            "position": [
+              0.39597573116102047,
+              0.06702802374648133,
+              -80
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              0.6664520983914408,
+              0.07548781516652263,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              0.8987247320138348,
+              0.07962033927322748,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 1.5999999999999943,
+            "pos": [
+              -0.060313527526831,
+              1.843003609094578,
+              -31.962591009996906
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "storm",
+        "position": [
+          0.22304523785024047,
+          2.596601793929661,
+          -123.85494244504011
+        ],
+        "velocity": [
+          -0.7849938605549671,
+          -0.4317797169176255,
+          -29.36109611965079
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          0,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 24,
+        "objectives": 2,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 34634,
+        "elapsed": 60.94999999999718,
+        "fps": 60,
+        "drawCalls": 1169,
+        "triangles": 904881,
+        "seed": 488253,
+        "kills": 35,
+        "pilot": {
+          "frames": 7199,
+          "shots": 43,
+          "jumps": 40,
+          "hooks": 8,
+          "interacts": 61,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "INDUCTION LOCK 2",
+            "position": [
+              1.194920604085835,
+              -0.06687557991933775,
+              -184
+            ]
+          },
+          {
+            "name": "INDUCTION LOCK 3",
+            "position": [
+              1.2479007699502935,
+              -0.054522435477338406,
+              -288
+            ]
+          }
+        ],
+        "nearby": [
+          {
+            "type": "rusher",
+            "hp": 106.5,
+            "pos": [
+              -0.0025897520444824185,
+              -0.051650628346644245,
+              -130.83295562950292
+            ]
+          },
+          {
+            "type": "guard",
+            "hp": 92.3,
+            "pos": [
+              16.760595394143877,
+              3.3162997692905924,
+              -121.70974442742074
+            ]
+          },
+          {
+            "type": "jet",
+            "hp": 113.6,
+            "pos": [
+              -17.74514950808019,
+              7.161409075404036,
+              -132.71457803220503
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "storm",
+        "position": [
+          1.7219687033299127,
+          -0.01289460026696837,
+          -286.25357802613894
+        ],
+        "velocity": [
+          -2.8153989837122992,
+          0,
+          -18.906810328826886
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-11",
+        "health": 99,
+        "ammo": [
+          34,
+          17,
+          9,
+          3,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 21,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 38350,
+        "elapsed": 66.01666666666527,
+        "fps": 60,
+        "drawCalls": 464,
+        "triangles": 309609,
+        "seed": 488253,
+        "kills": 38,
+        "pilot": {
+          "frames": 7797,
+          "shots": 46,
+          "jumps": 44,
+          "hooks": 9,
+          "interacts": 63,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "guard",
+            "hp": 92.3,
+            "pos": [
+              -1.855115830689987,
+              0.011862999383919878,
+              -258.70071634151464
+            ]
+          },
+          {
+            "type": "rusher",
+            "hp": 106.5,
+            "pos": [
+              -0.6972925281843609,
+              0.0023942067186072113,
+              -316.0342733419605
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 3,
+        "biome": "storm",
+        "position": [
+          -0.06190099587736048,
+          0.07763356646296483,
+          -385.94216763783396
+        ],
+        "velocity": [
+          0.000553132431200303,
+          0,
+          0.004403423063248666
+        ],
+        "state": "idle",
+        "grounded": true,
+        "support": "body-15",
+        "health": 85,
+        "ammo": [
+          34,
+          17,
+          9,
+          1,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 19,
+        "objectives": 0,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 40274,
+        "elapsed": 71.10000000000265,
+        "fps": 60,
+        "drawCalls": 1147,
+        "triangles": 1023780,
+        "seed": 488253,
+        "kills": 40,
+        "pilot": {
+          "frames": 8397,
+          "shots": 48,
+          "jumps": 47,
+          "hooks": 10,
+          "interacts": 71,
+          "rescues": 0,
+          "minHealth": 81,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [],
+        "nearby": [
+          {
+            "type": "sniper",
+            "hp": 85.19999999999999,
+            "pos": [
+              1.6993822668992946,
+              0.0963357250607153,
+              -361.4046692143364
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          -7.544583100151036,
+          10.557665607085088,
+          -68.8499901617579
+        ],
+        "velocity": [
+          9.23211574838445,
+          -0.24367122242592498,
+          -26.147466129432573
+        ],
+        "state": "fall",
+        "grounded": false,
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          4,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 4,
+        "objectives": 5,
+        "bossPhase": 1,
+        "extraction": false,
+        "score": 44152,
+        "elapsed": 76.17500000000669,
+        "fps": 60,
+        "drawCalls": 195,
+        "triangles": 177583,
+        "seed": 488253,
+        "kills": 43,
+        "pilot": {
+          "frames": 8996,
+          "shots": 53,
+          "jumps": 48,
+          "hooks": 11,
+          "interacts": 85,
+          "rescues": 0,
+          "minHealth": 62,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 74.15833333333842
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "STARBOARD TURBINE",
+            "position": [
+              8.636721951268296,
+              7.260354123871337,
+              -68
+            ],
+            "phase": 1
+          },
+          {
+            "name": "SHIELD RELAY A",
+            "position": [
+              -7.363278048731705,
+              7.260354123871337,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "SHIELD RELAY B",
+            "position": [
+              8.636721951268296,
+              7.260354123871337,
+              -97
+            ],
+            "phase": 2
+          },
+          {
+            "name": "CORE INDUCTOR A",
+            "position": [
+              -7.363278048731705,
+              7.260354123871337,
+              -120
+            ],
+            "phase": 3
+          },
+          {
+            "name": "CORE INDUCTOR B",
+            "position": [
+              8.636721951268296,
+              7.260354123871337,
+              -120
+            ],
+            "phase": 3
+          }
+        ],
+        "nearby": [
+          {
+            "type": "jet",
+            "hp": 1.5999999999999943,
+            "pos": [
+              -12.751132323297789,
+              7.512514818307607,
+              -67.37995993103901
+            ]
+          },
+          {
+            "type": "hunter",
+            "hp": 568,
+            "pos": [
+              -5.799087308641783,
+              7.280354123871336,
+              -95.18985280014986
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "playing",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          0.18653251949658117,
+          6.387096271647465,
+          -111.29508826194264
+        ],
+        "velocity": [
+          3.6612395221059355,
+          0,
+          -19.650171818167813
+        ],
+        "state": "sprint",
+        "grounded": true,
+        "support": "body-1",
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          4,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 3,
+        "objectives": 2,
+        "bossPhase": 3,
+        "extraction": false,
+        "score": 45886,
+        "elapsed": 81.23333333334405,
+        "fps": 60,
+        "drawCalls": 234,
+        "triangles": 203944,
+        "seed": 488253,
+        "kills": 44,
+        "pilot": {
+          "frames": 9593,
+          "shots": 56,
+          "jumps": 48,
+          "hooks": 12,
+          "interacts": 88,
+          "rescues": 0,
+          "minHealth": 62,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 74.15833333333842
+            }
+          ],
+          "extractionLanded": false
+        },
+        "target": [
+          {
+            "name": "CORE INDUCTOR A",
+            "position": [
+              -6.188341276805218,
+              6.387096271647465,
+              -120
+            ],
+            "phase": 3
+          },
+          {
+            "name": "CORE INDUCTOR B",
+            "position": [
+              9.811658723194782,
+              6.387096271647465,
+              -120
+            ],
+            "phase": 3
+          }
+        ],
+        "nearby": [
+          {
+            "type": "engineer",
+            "hp": 120.69999999999999,
+            "pos": [
+              -20.927164630270433,
+              4.367751640562462,
+              -115.00989265675219
+            ]
+          },
+          {
+            "type": "engineer",
+            "hp": 120.69999999999999,
+            "pos": [
+              18.52534082352319,
+              6.321245304428252,
+              -107.9810510927513
+            ]
+          }
+        ]
+      },
+      {
+        "mode": "victory",
+        "sector": 4,
+        "biome": "storm",
+        "position": [
+          -25.21428102759012,
+          3,
+          -143.53395975057379
+        ],
+        "velocity": [
+          17.244367132903154,
+          0,
+          20.87826382333649
+        ],
+        "state": "grapple",
+        "grounded": true,
+        "support": "body-6",
+        "health": 100,
+        "ammo": [
+          34,
+          17,
+          9,
+          5,
+          9
+        ],
+        "weapon": "harpoon",
+        "rope": null,
+        "enemies": 2,
+        "objectives": 0,
+        "bossPhase": 3,
+        "extraction": true,
+        "score": 54624,
+        "elapsed": 85.98333333334783,
+        "fps": 60,
+        "drawCalls": 276,
+        "triangles": 268061,
+        "seed": 488253,
+        "kills": 45,
+        "pilot": {
+          "frames": 10156,
+          "shots": 58,
+          "jumps": 49,
+          "hooks": 15,
+          "interacts": 91,
+          "rescues": 0,
+          "minHealth": 62,
+          "slides": 254,
+          "stopped": null,
+          "sectors": [
+            {
+              "sector": 0,
+              "biome": "iron",
+              "health": 100,
+              "elapsed": 0
+            },
+            {
+              "sector": 1,
+              "biome": "scrap",
+              "health": 100,
+              "elapsed": 19.5416666666662
+            },
+            {
+              "sector": 2,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 38.79166666666511
+            },
+            {
+              "sector": 3,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 54.85833333333086
+            },
+            {
+              "sector": 4,
+              "biome": "storm",
+              "health": 100,
+              "elapsed": 74.15833333333842
+            }
+          ],
+          "extractionLanded": true
+        },
+        "target": [],
+        "nearby": []
+      }
+    ]
+  }
+]

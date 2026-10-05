@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+# Preserve the upstream distribution byte-for-byte, including its whitespace.
+vendor/*.js -text -whitespace

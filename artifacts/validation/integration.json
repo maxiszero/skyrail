@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "name": "Every weapon consumes ammo, applies damage and reloads",
+      "pass": true,
+      "details": [
+        26,
+        33,
+        92,
+        112,
+        136.03049999999996
+      ]
+    },
+    {
+      "name": "Six grapple modes affect movement, shields and attachments",
+      "pass": true
+    },
+    {
+      "name": "Fuel explosions damage nearby enemy and award cache reward",
+      "pass": true
+    },
+    {
+      "name": "Sector locks block departure and upgrades branch to new biome",
+      "pass": true
+    },
+    {
+      "name": "Persistent workshop spends salvage and modifies next run",
+      "pass": true
+    },
+    {
+      "name": "Three boss phases unlock in order, extraction wins, checkpoint clears",
+      "pass": true
+    },
+    {
+      "name": "Retry clears movement transients, menu cleans actors and preserves save",
+      "pass": true
+    },
+    {
+      "name": "Thin cover blocks hitscan and travelling projectiles",
+      "pass": true
+    },
+    {
+      "name": "Upward aim reaches elevated targets and shake zero is respected",
+      "pass": true
+    },
+    {
+      "name": "Intro always boards in PULL mode and banked scrap survives menu",
+      "pass": true
+    },
+    {
+      "name": "Small environmental objects can be dragged and linked",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

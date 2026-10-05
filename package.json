@@ -1,0 +1,20 @@
+{
+  "name": "skyrail",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "SKYRAIL — The Iron Run. A standalone third-person sky piracy game.",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests/physics.test.mjs && node tests/playtest.cjs && node tests/ui.cjs",
+    "test:physics": "node tests/physics.test.mjs",
+    "test:campaign": "node tests/pilot.cjs",
+    "capture": "node tests/capture.cjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

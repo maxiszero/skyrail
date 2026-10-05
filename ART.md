@@ -1,0 +1,13 @@
+# SKYRAIL art pipeline
+
+The game's models are authored procedural geometry generated locally by `src/assets.js`. No Blender models, downloaded asset packs, photogrammetry, or image generation were used. Blender was not installed in the development environment; the implementation uses a direct Three.js modelling pipeline so the game can generate its assets without an external modelling application or build step.
+
+Railcars combine bevelled extruded panels, tapered hull profiles, corrugated siding, framed sliding doors, brake wheels, ladders, springs, brass piping, buffers and wheel assemblies. Cargo cars have enclosed bodies below their playable roofs; platforms have open structural frames; tankers carry rounded side tanks around a central passage. The locomotive adds a rounded pressure-vessel nose, split boilers, twin exhausts and a cowcatcher. Airships use authored cross-section profiles, structural bands, fins, gondolas and engine pods. The Admiral's twin hulls leave a separate playable center deck.
+
+Canvas-generated textures supply paint wear, diamond-plate flooring, hazard stripes and printed freight markings. Steel, painted metal, brass, leather, canvas, glass and luminous inserts use distinct surface settings. The palette is an art direction choice—red and teal machinery, dark steel, warm brass and cream lettering—not an attempt at photographic material reproduction.
+
+Characters are assembled from tapered limb and torso meshes with flight caps, goggles, jackets, harnesses, packs, gloves, magnetic boots, holsters and utility equipment. Joint hierarchies animate locomotion, jumps, sliding, grinding, wall movement, grapple poses, aiming, reload and melee. A short articulated scarf responds to movement. These are procedural pose animations, not motion capture or a full anatomical skeletal/IK system. The seven enemy roles vary in clothing, armor and equipment. Each of the five weapons has its own authored silhouette and mechanisms.
+
+Static pieces are merged by material, while character colors are combined with vertex colors per moving joint. Common source geometry and textures are cached. Unique render geometry and materials carry ownership markers for cleanup. Gameplay collision remains deliberately simpler than the visible mesh: roof bounds, obstacle boxes and grapple anchors are exported with each vehicle. Tiny pipes, rivets and decorations do not receive individual collision shapes.
+
+The result is a stylized real-time browser game. Close-up geometry, facial animation, physically simulated cloth, material detail and camera collision have practical limits; this is not a photorealistic asset library or a production DCC export pipeline.

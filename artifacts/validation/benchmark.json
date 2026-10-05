@@ -1,0 +1,134 @@
+{
+  "viewport": "1440x900",
+  "browser": "Installed Chrome, headless, native GPU; paused simulation, complete scene rendered",
+  "results": [
+    {
+      "quality": "high",
+      "frames": 180,
+      "meanFPS": 114,
+      "medianMs": 6.1,
+      "p95Ms": 18.2,
+      "mode": "pause",
+      "sector": 0,
+      "biome": "iron",
+      "position": [
+        2.2392619212524183,
+        0.06738643453093189,
+        -28.484846728063857
+      ],
+      "velocity": [
+        0,
+        0,
+        -0.08049691252421606
+      ],
+      "state": "idle",
+      "grounded": true,
+      "support": "body-1",
+      "health": 100,
+      "ammo": [
+        24,
+        12,
+        6,
+        4,
+        6
+      ],
+      "weapon": "repeater",
+      "rope": null,
+      "enemies": 27,
+      "objectives": 3,
+      "bossPhase": 1,
+      "extraction": false,
+      "score": 162,
+      "elapsed": 2.5999999999999934,
+      "fps": 90,
+      "drawCalls": 1347,
+      "triangles": 1042577
+    },
+    {
+      "quality": "medium",
+      "frames": 180,
+      "meanFPS": 62,
+      "medianMs": 18.1,
+      "p95Ms": 18.3,
+      "mode": "pause",
+      "sector": 0,
+      "biome": "iron",
+      "position": [
+        2.2392619212524183,
+        0.06738643453093189,
+        -28.484846728063857
+      ],
+      "velocity": [
+        0,
+        0,
+        -0.08049691252421606
+      ],
+      "state": "idle",
+      "grounded": true,
+      "support": "body-1",
+      "health": 100,
+      "ammo": [
+        24,
+        12,
+        6,
+        4,
+        6
+      ],
+      "weapon": "repeater",
+      "rope": null,
+      "enemies": 27,
+      "objectives": 3,
+      "bossPhase": 1,
+      "extraction": false,
+      "score": 162,
+      "elapsed": 2.5999999999999934,
+      "fps": 64,
+      "drawCalls": 1342,
+      "triangles": 1044318
+    },
+    {
+      "quality": "low",
+      "frames": 180,
+      "meanFPS": 76,
+      "medianMs": 12.1,
+      "p95Ms": 18.2,
+      "mode": "pause",
+      "sector": 0,
+      "biome": "iron",
+      "position": [
+        2.2392619212524183,
+        0.06738643453093189,
+        -28.484846728063857
+      ],
+      "velocity": [
+        0,
+        0,
+        -0.08049691252421606
+      ],
+      "state": "idle",
+      "grounded": true,
+      "support": "body-1",
+      "health": 100,
+      "ammo": [
+        24,
+        12,
+        6,
+        4,
+        6
+      ],
+      "weapon": "repeater",
+      "rope": null,
+      "enemies": 27,
+      "objectives": 3,
+      "bossPhase": 1,
+      "extraction": false,
+      "score": 162,
+      "elapsed": 2.5999999999999934,
+      "fps": 70,
+      "drawCalls": 1291,
+      "triangles": 1018610
+    }
+  ],
+  "errors": [],
+  "remoteRequests": []
+}

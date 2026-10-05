@@ -1,0 +1,17 @@
+node_modules/
+test-results/
+.npm-cache/
+screenshots/
+release/
+
+# Local credentials and caches
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.cache/
+# Keep the captured visual evidence in the backup
+!artifacts/screenshots/
+!artifacts/screenshots/**
